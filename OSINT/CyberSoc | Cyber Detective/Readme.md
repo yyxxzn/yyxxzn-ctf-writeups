@@ -117,7 +117,7 @@ In the party [tweet](https://twitter.com/PearceRees/status/1227617292680298500) 
 *We've managed to snag a picture of the front of a new Person of Interest's car. We need you to find out the make of the car and the month it was made in!
 We've attached the photo from a local CCTV camera, take a look?
 Enter as such: (Brand)(SPACE)(Month)*
-![alt text](https://github.com/yyxxzn/yyxxzn-ctf-writeups/blob/main/OSINT/CyberSoc%20%7C%20Cyber%20Detective/img/01.PNG)
+![alt text](https://github.com/yyxxzn/yyxxzn-ctf-writeups/blob/main/OSINT/CyberSoc%20%7C%20Cyber%20Detective/img/img01.PNG)
 
 I check on the UK government website the vehicles info [https://vehicleenquiry.service.gov.uk/](https://vehicleenquiry.service.gov.uk/). The result is:<br>
 ![alt text](https://github.com/yyxxzn/yyxxzn-ctf-writeups/blob/main/OSINT/CyberSoc%20%7C%20Cyber%20Detective/img/02.png)
