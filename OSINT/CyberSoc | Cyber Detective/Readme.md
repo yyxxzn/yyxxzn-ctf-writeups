@@ -120,9 +120,10 @@ Enter as such: (Brand)(SPACE)(Month)*
 ![alt text](https://github.com/yyxxzn/yyxxzn-ctf-writeups/blob/main/OSINT/CyberSoc%20%7C%20Cyber%20Detective/img/img01.PNG)
 
 I check on the UK government website the vehicles info [https://vehicleenquiry.service.gov.uk/](https://vehicleenquiry.service.gov.uk/). The result is:<br>
-![alt text](https://github.com/yyxxzn/yyxxzn-ctf-writeups/blob/main/OSINT/CyberSoc%20%7C%20Cyber%20Detective/img/img02.png)
 
 **Flag: Ford June**
+
+![alt text](https://github.com/yyxxzn/yyxxzn-ctf-writeups/blob/main/OSINT/CyberSoc%20%7C%20Cyber%20Detective/img/img02.png)
 
 ## connectionrefused
 *We're trying to access this web address: http://time-traveler.icec.tf/
@@ -130,9 +131,10 @@ The server is not responding! It is essential that we find the information conta
 Sources suggest that the site was accessible about 4 years ago, not sure how that is relevant but it might mean something to you?*
 
 I put the link on [https://web.archive.org/](https://web.archive.org/) and I select the snapshot of 1st June 2016 and this is the result:<br>
-![alt text](https://github.com/yyxxzn/yyxxzn-ctf-writeups/blob/main/OSINT/CyberSoc%20%7C%20Cyber%20Detective/img/img03.png)
 
 **Flag: IceCTF{Th3y'11_n3v4r_f1|\|d_m4h_fl3g_1n_th3_p45t}**
+
+![alt text](https://github.com/yyxxzn/yyxxzn-ctf-writeups/blob/main/OSINT/CyberSoc%20%7C%20Cyber%20Detective/img/img03.png)
 
 ## chemtrails
 *We've been rummaging through a Person of Interest's wheelie bins. We've found this boarding pass; although it looks like whoever had it was a bit paranoid that someone like us would find it.
@@ -142,9 +144,10 @@ We've attached the boarding pass for you. Please find this out for us.*
 ![alt text](https://github.com/yyxxzn/yyxxzn-ctf-writeups/blob/main/OSINT/CyberSoc%20%7C%20Cyber%20Detective/img/img04.png)
 
 Initially, I experimented with image manipulation using Photoshop. However, I subsequently noticed the presence of a barcode and decided to utilize an online barcode scanner, which ultimately yielded the desired result. <br>
-![alt text](https://github.com/yyxxzn/yyxxzn-ctf-writeups/blob/main/OSINT/CyberSoc%20%7C%20Cyber%20Detective/img/img05.png)
 
 **Flag: 22B**
+
+![alt text](https://github.com/yyxxzn/yyxxzn-ctf-writeups/blob/main/OSINT/CyberSoc%20%7C%20Cyber%20Detective/img/img05.png)
 
 ## bigbrother
 *We've intercepted a live camera feed overlooking a public space. The camera owner has not bothered to put a password on it and its open to the world!
@@ -154,9 +157,10 @@ Please find this out for us.
 LIVE CAMERA FEED: http://81.82.201.132*
 
 I checked the IP Geolocation with https://www.iplocation.net/ip-lookup<br>
-![alt text](https://github.com/yyxxzn/yyxxzn-ctf-writeups/blob/main/OSINT/CyberSoc%20%7C%20Cyber%20Detective/img/img06.png)
 
 **Flag: Belgium**
+
+![alt text](https://github.com/yyxxzn/yyxxzn-ctf-writeups/blob/main/OSINT/CyberSoc%20%7C%20Cyber%20Detective/img/img06.png)
 
 ## balancethebooks 
 *We have reason to believe that a particular company, TECHNOLOGY SERVICES LIMITED is complicit in a case we are investigating.
@@ -165,9 +169,10 @@ We've attached a document we acquired from hacking one of their laptops; hopeful
 Thank you for your continued support.*
 
 I searcged for the register on [https://find-and-update.company-information.service.gov.uk/](https://find-and-update.company-information.service.gov.uk/) using the company number.  I had to sift through multiple instances of 'Total exemption full accounts' to pinpoint the one associated with the year when this CTF was created. The accurate one is dated December 14, 2020. As I scrolled through the document, I was able to locate details regarding assets, specifically the amount of cash held in the bank.<br>
-![alt text](https://github.com/yyxxzn/yyxxzn-ctf-writeups/blob/main/OSINT/CyberSoc%20%7C%20Cyber%20Detective/img/img07.png)
 
 **Flag: 102.3**
+
+![alt text](https://github.com/yyxxzn/yyxxzn-ctf-writeups/blob/main/OSINT/CyberSoc%20%7C%20Cyber%20Detective/img/img07.png)
 
 TO FINISH
 ---
