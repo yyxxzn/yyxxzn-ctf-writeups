@@ -112,5 +112,62 @@ When you call the target's number what are the LAST THREE WORDS you hear (you ca
 
 In the party [tweet](https://twitter.com/PearceRees/status/1227617292680298500) there were some people invited, I checked George, Sarah, James and Pearce profiles, but I couldn't find anything. There are two other profiles that I couldn't check @Sophjones77 and @jenmp7 because private or suspended. I tried to look on http://www.infobel.com/uk/ if there's a business in that address, I found a business and its phone number but it wasn't correct. I tried to check the address with Street View on Maps but nothing. I tried to check @Sophjones77 before the suspension with [webarchive](https://web.archive.org/) but it couldn't load the profile. I searched on Google the solution and I found out that the solution was in @Sophjones77 account that is currently suspended. The conclusion is that it's not solvable.<br>
 
+# Evidence Investigation
+## dvla
+*We've managed to snag a picture of the front of a new Person of Interest's car. We need you to find out the make of the car and the month it was made in!
+We've attached the photo from a local CCTV camera, take a look?
+Enter as such: (Brand)(SPACE)(Month)*
+![alt text](img/01.PNG)
 
+I check on the UK government website the vehicles info [https://vehicleenquiry.service.gov.uk/](https://vehicleenquiry.service.gov.uk/). The result is:<br>
+![alt text](img/02.png)
 
+**Flag: Ford June**
+
+## connectionrefused
+*We're trying to access this web address: http://time-traveler.icec.tf/
+The server is not responding! It is essential that we find the information contained on this site as we suspect it to be part of a criminal enterprise.
+Sources suggest that the site was accessible about 4 years ago, not sure how that is relevant but it might mean something to you?*
+
+I put the link on [https://web.archive.org/](https://web.archive.org/) and I select the snapshot of 1st June 2016 and this is the result:<br>
+![alt text](img/03.png)
+
+**Flag: IceCTF{Th3y'11_n3v4r_f1|\|d_m4h_fl3g_1n_th3_p45t}**
+
+## chemtrails
+*We've been rummaging through a Person of Interest's wheelie bins. We've found this boarding pass; although it looks like whoever had it was a bit paranoid that someone like us would find it.
+I think we can still do something with this though... There is one thing in particular on here that may help us.
+We really need to find the SEAT NUMBER of this person, in order to connect it with other evidence the team has gathered.
+We've attached the boarding pass for you. Please find this out for us.*
+![alt text](img/04.png)
+
+Initially, I experimented with image manipulation using Photoshop. However, I subsequently noticed the presence of a barcode and decided to utilize an online barcode scanner, which ultimately yielded the desired result. <br>
+![alt text](img/05.png)
+
+**Flag: 22B**
+
+## bigbrother
+*We've intercepted a live camera feed overlooking a public space. The camera owner has not bothered to put a password on it and its open to the world!
+An extremely dangerous criminal on the run was recently spotted by our surveillance team using this camera.
+It is essential to our investigation that we find out the COUNTRY where this camera is operating from so we know which law enforcement agency to follow up with.
+Please find this out for us.
+LIVE CAMERA FEED: http://81.82.201.132*
+
+I checked the IP Geolocation with https://www.iplocation.net/ip-lookup<br>
+![alt text](img/06.png)
+
+**Flag: Belgium**
+
+## balancethebooks 
+*We have reason to believe that a particular company, TECHNOLOGY SERVICES LIMITED is complicit in a case we are investigating.
+To gain a better understanding of the size and scale of this company, we need you to find out the AMOUNT OF CASH currently held by them.
+We've attached a document we acquired from hacking one of their laptops; hopefully this will help you find this information?
+Thank you for your continued support.*
+
+I searcged for the register on [https://find-and-update.company-information.service.gov.uk/](https://find-and-update.company-information.service.gov.uk/) using the company number.  I had to sift through multiple instances of 'Total exemption full accounts' to pinpoint the one associated with the year when this CTF was created. The accurate one is dated December 14, 2020. As I scrolled through the document, I was able to locate details regarding assets, specifically the amount of cash held in the bank.<br>
+![alt text](img/07.png)
+
+**Flag: 102.3**
+
+TO FINISH
+---
