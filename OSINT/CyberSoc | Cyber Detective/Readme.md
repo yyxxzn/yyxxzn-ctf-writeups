@@ -168,11 +168,75 @@ To gain a better understanding of the size and scale of this company, we need yo
 We've attached a document we acquired from hacking one of their laptops; hopefully this will help you find this information?
 Thank you for your continued support.*
 
-I searcged for the register on [https://find-and-update.company-information.service.gov.uk/](https://find-and-update.company-information.service.gov.uk/) using the company number.  I had to sift through multiple instances of 'Total exemption full accounts' to pinpoint the one associated with the year when this CTF was created. The accurate one is dated December 14, 2020. As I scrolled through the document, I was able to locate details regarding assets, specifically the amount of cash held in the bank.<br>
+I searched for the register on [https://find-and-update.company-information.service.gov.uk/](https://find-and-update.company-information.service.gov.uk/) using the company number. I had to sift through multiple instances of 'Total exemption full accounts' to pinpoint the one associated with the year when this CTF was created. The accurate one is dated December 14, 2020. As I scrolled through the document, I was able to locate details regarding assets, specifically the amount of cash held in the bank.<br>
 
 **Flag: 102.3**
 
 ![alt text](https://github.com/yyxxzn/yyxxzn-ctf-writeups/blob/main/OSINT/CyberSoc%20%7C%20Cyber%20Detective/img/img07.png)
+
+## readyfortakeoff 
+*The special operations team has learned that a target of theirs always takes the first flight out of their local airport every morning.
+Please find the TIME OF ARRIVAL AT DESTINATION of that first flight, so that we can place officers to arrest them.
+Once again we have very little to go on, aside from what I think is a camera feed.
+LIVE CAMERA FEED: http://87.54.59.228
+If you're having trouble viewing it, we've also been given a screenshot by them, which is attached.
+Please enter the time as HH:MM.*
+![alt text](https://github.com/yyxxzn/yyxxzn-ctf-writeups/blob/main/OSINT/CyberSoc%20%7C%20Cyber%20Detective/img/img08.JPG)
+
+Looking at the screenshot I obtain the airport name, Bronholm Airport. I search the departures from this airport on flightradar24. [Here](https://www.flightradar24.com/data/airports/rnn/departures) there are the departures. The first flight is scheduled everyday at 6:15 AM and flight code is DX31.
+![alt text](https://github.com/yyxxzn/yyxxzn-ctf-writeups/blob/main/OSINT/CyberSoc%20%7C%20Cyber%20Detective/img/img09.png)
+
+ I open the flight history and I see that it arrives everyday at 6:55 and this is the flag 06:55. <br>
+
+**Flag: 06:55**
+
+![alt text](https://github.com/yyxxzn/yyxxzn-ctf-writeups/blob/main/OSINT/CyberSoc%20%7C%20Cyber%20Detective/img/img10.png)
+
+## inplainsight 
+*We obtained an enforcement order on one of our high priority targets' email account.
+They have been sending mysterious e-mails to an associate with no subject and no message, although there is an obscure stock image from the internet attached to each e-mail we've seen.
+We suspect they are using steganography to obfuscate (hide) meaningful information within the otherwise insignificant image attachments.
+Surveilling the target's laptop use in Starbucks via shoulder surfing has revealed that they use Stegosaurus, a bespoke online steganography tool.
+We've attached an image file from an e-mail that we believe has had something encoded into it by the target. The idea behind steganography is to implant something and not make it obvious to the naked eye (or ear).
+Please tell us what the HIDDEN MESSAGE within the specimen image provided is.
+Stegosaurus: https://mystegosaurus.co.uk/*
+![alt text](https://github.com/yyxxzn/yyxxzn-ctf-writeups/blob/main/OSINT/CyberSoc%20%7C%20Cyber%20Detective/img/img11.png)
+
+The website doesn't work. No snapshots on web archive. I tried different stenographics tools, none of them worked. Not solvable<br>
+
+## gunpowder 
+*Our surveillance team has discovered another camera that has been left open to the world!
+The microphone on this camera recently picked up the sound of gunfire from what we suspect to be the street outside. The team needs to confirm this.
+Could you please find the NAME OF THE ROAD that runs outside the building this camera is in.
+LIVE CAMERA FEED: http://50.100.241.155:8081*
+
+![alt text](https://github.com/yyxxzn/yyxxzn-ctf-writeups/blob/main/OSINT/CyberSoc%20%7C%20Cyber%20Detective/img/img12.PNG)
+
+In the picture there's written The Birchmount Lofts, I searched on Google and I saw that they are lofts for animals located in Birchmount Animal Hospital, that is located on Birchmount Road.<br>
+
+**Flag: Birchmount Road**
+
+## sos
+*One of our SIGINT (Signals Intelligence) analysts recently found a strange broadcast sent over the airwaves. We are not certain on the source.
+Can you please draw a conclusion on the attached transmission?
+--. --- .-.. -.. . -. . .- --. .-.. .*
+
+It's morse code, I used a translator and I got GOLDENEAGLE, that it's the flag<br>
+
+**Flag: GOLDENEAGLE**
+
+## sos
+*We've been deploying drones to photograph the South Wales region for some time. The analysis team has been picking through the mass of imagery we've got from this activity.
+We're particularly interesting in confirming the sighting of one of our most critical targets.
+Fortunately, one of those Google cars with cameras mounted to the roof appears to have been sailing by at the time. Perhaps this might help you?
+So we can be confident we've actually spotted them, can you confirm the COLOUR of their HOODIE and the COLOUR of their T-SHIRT.
+All they've given me is an overlay from the drone... Hopefully this is enough? I've attached it to this tasking for you. We think they were getting out of a car at the time.
+Enter the flag as such: (HOODIE COLOUR) (SPACE) (T-SHIRT COLOUR)*
+![alt text](https://github.com/yyxxzn/yyxxzn-ctf-writeups/blob/main/OSINT/CyberSoc%20%7C%20Cyber%20Detective/img/img13.JPG)
+I open GMaps, I locate the address, that it's in Cardiff, and with streetview I search a person that is getting out of car until I find the result.<br>
+
+**Flag: Red Blue**
+![alt text](https://github.com/yyxxzn/yyxxzn-ctf-writeups/blob/main/OSINT/CyberSoc%20%7C%20Cyber%20Detective/img/img14.png)
 
 TO FINISH
 ---
