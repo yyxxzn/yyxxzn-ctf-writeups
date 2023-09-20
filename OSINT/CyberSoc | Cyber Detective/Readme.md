@@ -168,6 +168,8 @@ To gain a better understanding of the size and scale of this company, we need yo
 We've attached a document we acquired from hacking one of their laptops; hopefully this will help you find this information?
 Thank you for your continued support.*
 
+[Document](https://github.com/yyxxzn/yyxxzn-ctf-writeups/blob/main/OSINT/CyberSoc%20%7C%20Cyber%20Detective/img/companieshouse.pdf)
+
 I searched for the register on [https://find-and-update.company-information.service.gov.uk/](https://find-and-update.company-information.service.gov.uk/) using the company number. I had to sift through multiple instances of 'Total exemption full accounts' to pinpoint the one associated with the year when this CTF was created. The accurate one is dated December 14, 2020. As I scrolled through the document, I was able to locate details regarding assets, specifically the amount of cash held in the bank.<br>
 
 **Flag: 102.3**
